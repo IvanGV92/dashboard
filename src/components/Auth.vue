@@ -1,16 +1,19 @@
 <template>
- <auth></auth>
+ <dashboard></dashboard>
 </template>
 
 <script>
+import Dashboard from './Dashboard.vue';
 
-import Auth from './components/Auth.vue'
+
+
 export default {
-  name: 'App',
+  name: 'Auth',
 
   components: {
+    Dashboard
 
-  Auth
+  
     
 
   },
